@@ -13,10 +13,21 @@
 </head>
 
 <body>
-
+  <nav>
+    <button onclick="showNav()" class="btn">
+      <img src="images/icons/close.svg">
+    </button>
+    <ul>
+      <li>Контакты</li>
+      <li>Адреса</li>
+      <li>Кредит/Лизинг</li>
+      <li>Партнёры</li>
+    </ul>
+  </nav>
   <!-- HEADER -->
   <header>
-    <button class="btn"><img src="images/icons/nav.png"></button>
+    <button onclick="showNav()" class="btn"><img src="images/icons/nav.png"></button>
+
     <h2>Cars Hummer</h2>
     <button class="btn"><img src="images/icons/cart.png"></button>
   </header>
@@ -91,8 +102,9 @@
       <h5>Hummer</h5>
       <div class="links">
         <div>
-          <a>Контакты</a>
-          <a>Адреса</a>
+          <a href="https://www.gmc.com/contact-us#q-main-content" target="_blank">Контакты</a>
+          <a href="https://www.google.com/maps/place/GM+Factory+ZERO,+Detroit-Hamtramck+Assembly+Center/@42.3800828,-83.3264641,11z/data=!4m9!1m2!2m1!1z0JTQtdGC0YDQvtC50YIsINCc0LjRh9C40LPQsNC9LCDQodCo0JAgZ2VuaXJhbCBtb3RvcnM!3m5!1s0x8824d2583a345067:0x2e4dc0692df2d56b!8m2!3d42.3800828!4d-83.0463127!15sCjXQlNC10YLRgNC-0LnRgiwg0JzQuNGH0LjQs9Cw0L0sINCh0KjQkCBnZW5lcmFsIG1vdG9ycyIDiAEBWjUiM9C00LXRgtGA0L7QudGCINC80LjRh9C40LPQsNC9INGB0YjQsCBnZW5lcmFsIG1vdG9yc5IBEGNhcl9tYW51ZmFjdHVyZXKaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTlZlbVY1ZVVsQkVBRQ"
+            target="_blank">Адреса</a>
         </div>
         <div>
           <a>Кредит/Лизинг</a>
@@ -102,12 +114,13 @@
 
       <div class="contacts">
         <button>Заказать звонок</button>
-        <a>+375 (33) 666-66-66</a>
-        <a>HMR@gmail.com</a>
+        <a href="tel:375336666666">+375 (33) 666-66-66</a>
+        <a href="mailto:HMR@gmail.com">HMR@gmail.com</a>
       </div>
     </div>
 
   </footer>
+  <script src="scripts.js"></script>
 </body>
 
 </html>
