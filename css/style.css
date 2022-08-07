@@ -208,6 +208,7 @@ section button.active {
 }
 .numbers {
   justify-content: center;
+  flex-wrap: wrap;
 }
 .numbers .number {
   width: auto;
